@@ -1,0 +1,40 @@
+#!/bin/bash
+
+python -m tools.train_eval \
+  --batch_size 128 \
+  --complex_type path \
+  --conv_type B \
+  --dataset ZINC \
+  --device 0 \
+  --drop_position lin2 \
+  --drop_rate 0.0 \
+  --emb_dim 64 \
+  --epochs 1000 \
+  --early_stop \
+  --eval_metric mae \
+  --exp_name pcn-zinc \
+  --final_readout sum \
+  --graph_norm bn \
+  --indrop_rate 0.0 \
+  --init_method sum \
+  --jump_mode None \
+  --lr 0.001 \
+  --lr_scheduler 'ReduceLROnPlateau' \
+  --lr_scheduler_patience 20 \
+  --max_dim 7 \
+  --minimize \
+  --model embed_sparse_cin \
+  --nonlinearity relu \
+  --num_fc_layers 2 \
+  --num_layers 4 \
+  --num_layers_combine 1 \
+  --num_layers_update 2 \
+  --preproc_jobs 32 \
+  --readout sum \
+  --start_seed 0 \
+  --stop_seed 9 \
+  --task_type regression \
+  --train_eval_period 20 \
+  --use_coboundaries True \
+  --use_edge_features \
+  --disable_graph_norm True
