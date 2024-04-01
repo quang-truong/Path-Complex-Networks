@@ -1,8 +1,8 @@
 # Path Complex Networks
 
 <a href="https://github.com/quang-truong/Path-Complex-Networks"><img src="https://img.shields.io/badge/-Path%20Complex%20Networks-017F2F?style=flat&logo=github&labelColor=gray"></a>
-[![Paper](http://img.shields.io/badge/paper-arXiv:2308.06838-B31B1B.svg)](https://arxiv.org/abs/2308.06838)
-![Conference](http://img.shields.io/badge/AAAI-2024-4b44ce.svg)
+[![Paper](http://img.shields.io/badge/Paper-arXiv:2308.06838-B31B1B.svg)](https://arxiv.org/abs/2308.06838)
+[![Conference](http://img.shields.io/badge/AAAI-2024-4b44ce.svg)](https://ojs.aaai.org/index.php/AAAI/article/view/29463)
 
 This is the official repository for the paper **"Weisfeiler and Lehmann Go Paths: Learning Topological Features via Path Complexes."** Our work largely bases on the [original repo](https://github.com/twitter-research/cwn) by Bodnar et. al. for [MPSN](https://arxiv.org/abs/2103.03212) and [CWN](https://arxiv.org/abs/2106.12575).
 
