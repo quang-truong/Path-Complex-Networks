@@ -50,13 +50,14 @@ Navigate to the repository's root directory. Every experiment's shell script is 
 Please cite our paper  if you find our work is useful for your research.
 
 ```markdown
-@misc{truong2023weisfeiler,
-  title={Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes}, 
-  author={Quang Truong and Peter Chin},
-  year={2023},
-  eprint={2308.06838},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG}
+@inproceedings{truong2024weisfeiler,
+  title={Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes},
+  author={Truong, Quang and Chin, Peter},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={14},
+  pages={15382--15391},
+  year={2024}
 }
 ```
 
